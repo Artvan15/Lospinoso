@@ -22,5 +22,6 @@
   <ItemGroup>
     <Text Include="text.txt" />
     <Text Include="gitTest.txt" />
+    <Text Include="mergeTest.txt" />
   </ItemGroup>
 </Project>
