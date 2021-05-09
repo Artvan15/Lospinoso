@@ -79,7 +79,7 @@ int main()
 	Table <int> t1(0, 2);
 	cout << t1.Size().first << ' ' << t1.Size().second << endl;
 
-	cout << "GitTest" << endl;
+	cout << "GitTest!!!" << endl;
 	
 }
 
