@@ -159,6 +159,7 @@
     <ClCompile Include="Lippman.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="gitTest.txt" />
     <Text Include="text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
