@@ -163,6 +163,14 @@
     <Text Include="mergeTest.txt" />
     <Text Include="text.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoBreak.h" />
+    <ClInclude Include="BrakeCommand.h" />
+    <ClInclude Include="CarDetected.h" />
+    <ClInclude Include="ServiceBus.h" />
+    <ClInclude Include="SpeedUpdate.h" />
+    <ClInclude Include="Tests.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
