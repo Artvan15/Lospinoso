@@ -106,7 +106,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\programs2\boost_1_75_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\programs2\boost_1_75_0;$(SolutionDir)Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -170,6 +170,11 @@
     <ClInclude Include="ServiceBus.h" />
     <ClInclude Include="SpeedUpdate.h" />
     <ClInclude Include="Tests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Catch2WithMain\Catch2WithMain.vcxproj">
+      <Project>{4e4c57e0-8da5-3ea6-a911-6f65482d12c0}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
